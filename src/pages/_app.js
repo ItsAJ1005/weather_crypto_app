@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Provider } from 'react-redux';
 import { store } from '../store';
-import Layout from '../components/Layout';
+import Layout from "../components/Layout.jsx"
 import WebSocketClient from '../lib/websocket';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
